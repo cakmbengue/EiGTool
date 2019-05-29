@@ -33,7 +33,6 @@ Installation
 ```
 git clone https://github.com/cakmbengue/eig-tool.git EiG
 cd EiG
-pip install -r prerequis.txt
 python eig.py
 ```
 
