@@ -16,11 +16,11 @@ Email information Gathering (EiG)
 
 Description
 ===========
-EiG-tool permet de trouver les emails d'un nom de domaine grâce aux moteurs de recherche. Son but est de vérifier la visibilité de vos adresse emails professionnels sur Internet qui peuvent être ciblées par un cyberattaquant.
+EiG Tool permet de trouver les emails d'un nom de domaine grâce aux moteurs de recherche. Son but est de vérifier la visibilité de vos adresse emails professionnels sur Internet qui peuvent être ciblées par un cyberattaquant.
 
 Avertissement
 =============
-L'utilisation d'EiG-tool pour attaquer des cibles sans consentement mutuel préalable est illégale. Le développeur n'est pas responsable de tout dommage causé par EiG-tool.
+L'utilisation d'EiG Tool pour attaquer des cibles sans consentement mutuel préalable est illégale. Le développeur n'est pas responsable de tout dommage causé par EiG-tool.
 
 Prérequis
 =========
@@ -31,7 +31,7 @@ Installation
 ============
 
 ```
-git clone https://github.com/cakmbengue/eig-tool.git EiG
+git clone https://github.com/cakmbengue/EiGTool.git EiG
 cd EiG
 python eig.py
 ```
@@ -49,19 +49,19 @@ ou
 python eig.py --info [EMAIL] --verbose [LEVEL]
 ```
 
-![example_1](https://github.com/cakmbengue/eig-tool/blob/master/screen/screen1.png)
+![example_1](https://github.com/cakmbengue/EiGTool/blob/master/screen/screen1.png)
 
-![example_2](https://github.com/cakmbengue/eig-tool/blob/master/screen/screen2.png)
+![example_2](https://github.com/cakmbengue/EiGTool/blob/master/screen/screen2.png)
 
 Exemples
 ========
 
 ```
-python eig.py --domain domaine.sn --source google --verbose 3
+python eig.py --domain site.sn --source google --breach -v 2 --report ../site.sn.txt
 ```
 ou
 
 ```
-python eig.py --domain domaine.sn --source all --verbose 3
+python eig.py --domain site.sn --source all --breach -v 3 --report ../site.sn.txt
 ```
-![example_3](https://github.com/cakmbengue/EiG-tool/blob/master/screen/screen3.png)
+![example_3](https://github.com/cakmbengue/EiGTool/blob/master/screen/screen3.png)
