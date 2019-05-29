@@ -1,4 +1,4 @@
-EiG-Tool
+EiG Tool
 ========
 Recherche d'adresses emails sur Internet
 
@@ -11,7 +11,7 @@ Email information Gathering (EiG)
 
 @location: Dakar (Senegal)
 
-@EiG-tool: open source, gratuit.
+@EiGTool: open source, gratuit.
 ```
 
 Description
