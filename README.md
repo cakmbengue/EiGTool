@@ -1,6 +1,6 @@
 EiG Tool
 ========
-Recherche d'adresses emails sur Internet.
+Outil de recherche d'adresses emails sur Internet.
 
 URL de mon repository sur GitHub
 ================================
