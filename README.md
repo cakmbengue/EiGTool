@@ -2,10 +2,6 @@ EiG Tool
 ========
 Outil de recherche d'adresses emails sur Internet.
 
-URL de mon repository sur GitHub
-================================
-https://github.com/cakmbengue/EiGTool
-
 Information
 ===========
 ```
